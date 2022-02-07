@@ -39,6 +39,9 @@ grafo.add_edge(7, 8, title='Término com Camila, casamento com Mayra')
 grafo.add_edge(8, 9, title='Esposa Mayra traída por Aricia')
 grafo.add_edge(8, 10, title='INIMIGOS MORTAIS')
 
+# Definindo física da visualização dos nós
+grafo.hrepulsion(node_distance=170, central_gravity=0.0, spring_length=115, spring_strength=0.075, damping=0.09)
+
 # Mostrar botões para ajuste da visualização
 grafo.show_buttons(filter_ = ['configure','layout','interaction','physics','edges'])
 

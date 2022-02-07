@@ -29,6 +29,12 @@ grafo.add_edge(0, 8)
 grafo.add_edge(0, 9)
 grafo.add_edge(0, 10)
 
+# Informações das arestas
+grafo.add_edge(6, 7, title='Traiu Camila com May')
+grafo.add_edge(7, 8, title='Terminou com Camila e casou com Mayra')
+grafo.add_edge(9, 8, title='Era casado com Mayra e a traia com Aricia')
+grafo.add_edge(8, 10, title='INIMIGOS MORTAIS')
+
 # Mostrar botões para ajuste da visualização
 grafo.show_buttons(filter_ = ['configure','layout','interaction','physics','edges'])
 
